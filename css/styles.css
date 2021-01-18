@@ -12,7 +12,7 @@ html[theme='light'] {
   --background-color: white;
   --background-color-hover: #f5f5f5;
   --link-color: #2a9df4;
-  --link-hover-color: blue;
+  --link-hover-color: #187bcd;
 }
 
 html[theme='dark'] {
@@ -20,7 +20,7 @@ html[theme='dark'] {
   --background-color: black;
   --background-color-hover: #101010;
   --link-color: #2a9df4;
-  --link-hover-color: lightblue;
+  --link-hover-color: lightskyblue;
 }
 
 body {
