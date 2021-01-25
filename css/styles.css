@@ -35,10 +35,6 @@ body {
 }
 
 .container {
-  width: 100%;
-  padding: 15px;
-  margin-right: auto;
-  margin-left: auto;
   display: block;
   text-align: center;
   max-width: 800px;
@@ -133,7 +129,6 @@ footer {
 
 button {
   background-color: var(--background-color);
-  color: var(--text-color);
   border: 0px solid;
 }
 

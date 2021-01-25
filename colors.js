@@ -14,6 +14,17 @@ function lightMode() {
   localStorage.setItem('mbz-color-mode', 'light');
 }
 
+// default color mode on reload
+if (theme === 'dark') {
+  darkMode();
+} else if (theme === 'light') {
+  lightMode();
+} else if (systemIsDark.matches) {
+  darkMode();
+} else {
+  lightMode();
+}
+
 // toggle the color mode
 function toggleColorMode() {
   let theme = localStorage.getItem('mbz-color-mode');
@@ -29,13 +40,9 @@ function toggleColorMode() {
   }
 }
 
-// default color mode on reload
-if (theme === 'dark') {
-  darkMode();
-} else if (theme === 'light') {
-  lightMode();
-} else if (systemIsDark.matches) {
-  darkMode();
-} else {
-  lightMode();
+toggles = document.getElementsByClassName('color-mode-toggle');
+console.log(toggles);
+for (var i = 0; i < toggles.length; i++) {
+  toggles[i].onclick = toggleColorMode;
+  console.log(toggles[i]);
 }
