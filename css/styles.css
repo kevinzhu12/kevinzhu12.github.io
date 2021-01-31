@@ -2,6 +2,10 @@
   display: none;
 }
 
+:root[theme='yellow'] .light-hidden {
+  display: none;
+}
+
 :root[theme='dark'] .dark-hidden {
   display: none;
 }
@@ -21,6 +25,11 @@ html[theme='dark'] {
   --background-color-hover: #101010;
   --link-color: #2a9df4;
   --link-hover-color: lightskyblue;
+}
+
+html[theme='yellow'] {
+  --background-color: lightyellow;
+  --background-color-hover: lightpink;
 }
 
 body {
