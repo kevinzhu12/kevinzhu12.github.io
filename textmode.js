@@ -41,4 +41,4 @@ function toggleTextMode() {
 }
 
 text_mode_button.onclick = toggleTextMode;
-Mousetrap.bind(['i'], toggleTextMode);
+Mousetrap.bind(['t'], toggleTextMode);

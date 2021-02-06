@@ -44,3 +44,4 @@ toggles = document.getElementsByClassName('color-mode-toggle');
 for (var i = 0; i < toggles.length; i++) {
   toggles[i].onclick = toggleColorMode;
 }
+Mousetrap.bind(['c'], toggleColorMode);
