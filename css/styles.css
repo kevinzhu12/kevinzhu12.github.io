@@ -10,6 +10,10 @@
   display: none;
 }
 
+:root[mode='text'] .text-hidden {
+  display: none;
+}
+
 html,
 html[theme='light'] {
   --text-color: black;
@@ -51,6 +55,8 @@ body {
 
 .navbar {
   margin-top: 50px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .header {
@@ -138,6 +144,7 @@ footer {
 
 button {
   background-color: var(--background-color);
+  color: var(--text-color);
   border: 0px solid;
 }
 
