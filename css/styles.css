@@ -148,6 +148,11 @@ button {
   border: 0px solid;
 }
 
+button:focus {
+  box-shadow: none;
+  outline: none;
+}
+
 .color-mode-toggle {
   width: 2em;
   height: 2em;
