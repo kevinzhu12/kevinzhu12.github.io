@@ -14,8 +14,12 @@
   display: none;
 }
 
-:root[mode='text'] .text-hidden {
+.text-hidden {
   display: none;
+}
+
+:root[mode='image'] .text-hidden {
+  display: inline;
 }
 
 html,
