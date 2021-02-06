@@ -41,8 +41,6 @@ function toggleColorMode() {
 }
 
 toggles = document.getElementsByClassName('color-mode-toggle');
-console.log(toggles);
 for (var i = 0; i < toggles.length; i++) {
   toggles[i].onclick = toggleColorMode;
-  console.log(toggles[i]);
 }

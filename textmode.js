@@ -1,6 +1,5 @@
 let mode = localStorage.getItem('mbz-view-mode');
 md8 = document.querySelectorAll('.col-md-8');
-console.log(md8);
 
 text_mode_button = document.querySelector('#text-mode-toggle');
 
@@ -10,7 +9,6 @@ function setTextMode() {
   localStorage.setItem('mbz-view-mode', 'text');
   for (var i = 0; i < md8.length; i++) {
     md8[i].classList.remove('col-md-8');
-    console.log(md8[i]);
   }
 }
 
@@ -20,7 +18,6 @@ function setImageMode() {
   localStorage.setItem('mbz-view-mode', 'image');
   for (var i = 0; i < md8.length; i++) {
     md8[i].classList.add('col-md-8');
-    console.log(md8[i]);
   }
 }
 
