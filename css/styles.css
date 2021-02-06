@@ -6,6 +6,10 @@
   display: none;
 }
 
+:root[theme='green'] .light-hidden {
+  display: none;
+}
+
 :root[theme='dark'] .dark-hidden {
   display: none;
 }
@@ -33,7 +37,16 @@ html[theme='dark'] {
 
 html[theme='yellow'] {
   --background-color: lightyellow;
-  --background-color-hover: lightpink;
+  --background-color-hover: #fef2ae;
+  --link-color: #ff7700;
+  --link-hover-color: #ff4d00;
+}
+
+html[theme='green'] {
+  --background-color: #d6efc7;
+  --background-color-hover: #b3d898;
+  --link-color: #11698e;
+  --link-hover-color: #1b3700;
 }
 
 body {
