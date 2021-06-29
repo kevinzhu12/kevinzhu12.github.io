@@ -26,7 +26,7 @@ if (mode === 'image') {
 } else if (mode === 'text') {
   setTextMode();
 } else {
-  setTextMode(); // default on first ever page load
+  setImageMode(); // default on first ever page load
 }
 
 function toggleTextMode() {
