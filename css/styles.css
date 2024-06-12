@@ -1,16 +1,16 @@
-:root[theme='light'] .light-hidden {
+:root[theme="light"] .light-hidden {
   display: none;
 }
 
-:root[theme='yellow'] .light-hidden {
+:root[theme="yellow"] .light-hidden {
   display: none;
 }
 
-:root[theme='green'] .light-hidden {
+:root[theme="green"] .light-hidden {
   display: none;
 }
 
-:root[theme='dark'] .dark-hidden {
+:root[theme="dark"] .dark-hidden {
   display: none;
 }
 
@@ -18,12 +18,12 @@
   display: none;
 }
 
-:root[mode='image'] .text-hidden {
+:root[mode="image"] .text-hidden {
   display: inline;
 }
 
 html,
-html[theme='light'] {
+html[theme="light"] {
   --text-color: black;
   --background-color: white;
   --background-color-hover: #f5f5f5;
@@ -31,7 +31,7 @@ html[theme='light'] {
   --link-hover-color: #187bcd;
 }
 
-html[theme='dark'] {
+html[theme="dark"] {
   --text-color: white;
   --background-color: black;
   --background-color-hover: #101010;
@@ -39,14 +39,14 @@ html[theme='dark'] {
   --link-hover-color: lightskyblue;
 }
 
-html[theme='yellow'] {
+html[theme="yellow"] {
   --background-color: lightyellow;
   --background-color-hover: #fef2ae;
   --link-color: #ff7700;
   --link-hover-color: #ff4d00;
 }
 
-html[theme='green'] {
+html[theme="green"] {
   --background-color: #d6efc7;
   --background-color-hover: #b3d898;
   --link-color: #11698e;
@@ -91,6 +91,7 @@ body {
 
 .projects {
   text-align: left;
+  border-color: black;
 }
 
 .card {
