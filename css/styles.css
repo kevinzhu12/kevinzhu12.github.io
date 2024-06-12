@@ -99,6 +99,7 @@ body {
   background-color: var(--background-color);
   margin-top: 50px;
   color: var(--text-color);
+  border-color: black;
 }
 
 .card:hover {
