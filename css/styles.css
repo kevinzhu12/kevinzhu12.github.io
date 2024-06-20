@@ -210,3 +210,7 @@ ul li {
 ul a {
   color: var(--text-color);
 }
+
+.status {
+  color: red;
+}
